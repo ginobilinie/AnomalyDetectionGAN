@@ -1,0 +1,585 @@
+nohup: ignoring input
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Namespace(RT_th=0.005, batchSize=32, cuda=True, decLREvery=10000, dropout_rate=0.2, finalSize=64, gdlNorm=2, gpuID=3, how2normalize=6, isAdLoss=True, isGDL=True, isMultiSource=False, isWDist=False, lambda_AD=0.05, lambda_D_WGAN_GP=10, lambda_gdl=0.05, lossBase=1, lr_D=0.001, lr_G=0.005, momentum=0.9, ndf=32, ngf=32, numOfChannel_allSource=5, numOfChannel_singleSource=5, numofIters=200000, outputSizeOfG=32, prefixModelName='/shenlab/lab_stor5/dongnie/anoDetectGAN/model/anoDetect_adLoss_lr5e3_1101_', prefixPredictedFN='preSub10_', pretrained='', resume='', saveModelEvery=5000, showTestPerformanceEvery=5000, showTrainLossEvery=100, showValPerformanceEvery=1000, start_epoch=1, threads=1, weight_decay=0.0001, whichLoss=1, whichNet=4)
+len of params is 
+8
+size of params is 
+(128L, 64L, 5L, 5L)
+/shenlab/lab_stor5/dongnie/3T7T/histH5Data
+train64to48_1.h5
+X shape  (36480, 48, 48)
+************************************************
+time now is: Thu Nov  1 11:03:56 2018
+loss_real is  7.51715612411 loss_fake is  0.510023891926 outputD_real is 
+ 0.8184
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.221542075276
+loss for discriminator is 8.027180
+cost time for iter [1, 100] is 11.51
+************************************************
+************************************************
+time now is: Thu Nov  1 11:03:58 2018
+loss_real is  3.77085709572 loss_fake is  0.0 outputD_real is 
+1.00000e-06 *
+  2.0871
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  1.06914806366
+loss for discriminator is 3.770857
+cost time for iter [101, 200] is 2.39
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:01 2018
+loss_real is  0.000465911522042 loss_fake is  1.10790806502e-05 outputD_real is 
+ 0.9989
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.573568165302
+loss for discriminator is 0.000477
+cost time for iter [201, 300] is 3.08
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:03 2018
+loss_real is  0.000814202416223 loss_fake is  7.71390332375e-05 outputD_real is 
+ 0.9991
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.623237431049
+loss for discriminator is 0.000891
+cost time for iter [301, 400] is 2.04
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:06 2018
+loss_real is  0.588065683842 loss_fake is  0.40254098177 outputD_real is 
+ 0.3314
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0545824728906
+loss for discriminator is 0.990607
+cost time for iter [401, 500] is 2.41
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:08 2018
+loss_real is  0.491656899452 loss_fake is  0.402357041836 outputD_real is 
+ 0.3313
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0553566329181
+loss for discriminator is 0.894014
+cost time for iter [501, 600] is 2.02
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:10 2018
+loss_real is  0.6109623909 loss_fake is  0.411713033915 outputD_real is 
+ 0.3375
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0489933229983
+loss for discriminator is 1.022675
+cost time for iter [601, 700] is 2.64
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:13 2018
+loss_real is  0.334248423576 loss_fake is  0.510724544525 outputD_real is 
+ 0.3999
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0496077872813
+loss for discriminator is 0.844973
+cost time for iter [701, 800] is 2.79
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:15 2018
+loss_real is  0.273929238319 loss_fake is  0.406932175159 outputD_real is 
+ 0.3343
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.056211233139
+loss for discriminator is 0.680861
+cost time for iter [801, 900] is 2.43
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:18 2018
+loss_real is  0.821059644222 loss_fake is  0.384284794331 outputD_real is 
+ 0.3191
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0562279932201
+loss for discriminator is 1.205344
+cost time for iter [901, 1000] is 2.12
+************************************************
+/shenlab/lab_stor5/dongnie/3T7T/histH5Data
+train64to48_1.h5
+X shape  (36480, 48, 48)
+outputD_real is  
+ 18.5347
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+  outputD_real is  
+ 18.5347
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+************************************************
+time now is: Thu Nov  1 11:04:22 2018
+loss_real is  0.743359565735 loss_fake is  0.387266069651 outputD_real is 
+ 0.3210
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0588587597013
+loss for discriminator is 1.130626
+cost time for iter [1001, 1100] is 4.26
+************************************************
+train64to48_7.h5
+X shape  (36480, 48, 48)
+************************************************
+time now is: Thu Nov  1 11:04:29 2018
+loss_real is  0.514164566994 loss_fake is  0.405874669552 outputD_real is 
+ 0.3336
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.056478548795
+loss for discriminator is 0.920039
+cost time for iter [1101, 1200] is 7.44
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:31 2018
+loss_real is  0.653449058533 loss_fake is  0.377406418324 outputD_real is 
+ 0.3144
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0579697787762
+loss for discriminator is 1.030855
+cost time for iter [1201, 1300] is 1.77
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:33 2018
+loss_real is  0.476476967335 loss_fake is  0.489668905735 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0453164055943
+loss for discriminator is 0.966146
+cost time for iter [1301, 1400] is 1.81
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:34 2018
+loss_real is  0.502811908722 loss_fake is  0.423863708973 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0531600490212
+loss for discriminator is 0.926676
+cost time for iter [1401, 1500] is 1.34
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:36 2018
+loss_real is  0.678718924522 loss_fake is  0.365761309862 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0523640699685
+loss for discriminator is 1.044480
+cost time for iter [1501, 1600] is 1.72
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:38 2018
+loss_real is  0.818234562874 loss_fake is  0.404249668121 outputD_real is 
+ 0.3325
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0518591664732
+loss for discriminator is 1.222484
+cost time for iter [1601, 1700] is 2.22
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:40 2018
+loss_real is  0.574174880981 loss_fake is  0.283424854279 outputD_real is 
+ 0.2470
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0721304565668
+loss for discriminator is 0.857600
+cost time for iter [1701, 1800] is 1.79
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:42 2018
+loss_real is  0.480750381947 loss_fake is  0.488702088594 outputD_real is 
+ 0.3866
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0499783232808
+loss for discriminator is 0.969453
+cost time for iter [1801, 1900] is 1.87
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:44 2018
+loss_real is  0.559919476509 loss_fake is  0.425083786249 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0531284995377
+loss for discriminator is 0.985003
+cost time for iter [1901, 2000] is 2.24
+************************************************
+outputD_real is  
+ 29.8146
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+  outputD_real is  
+ 29.8146
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+************************************************
+time now is: Thu Nov  1 11:04:46 2018
+loss_real is  0.472024440765 loss_fake is  0.404903292656 outputD_real is 
+ 0.3330
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0551843903959
+loss for discriminator is 0.876928
+cost time for iter [2001, 2100] is 1.68
+************************************************
+************************************************
+time now is: Thu Nov  1 11:04:47 2018
+loss_real is  0.614965260029 loss_fake is  0.445320188999 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0491797104478
+loss for discriminator is 1.060285
+cost time for iter [2101, 2200] is 1.81
+************************************************
+train64to48_8.h5
+X shape  (36480, 48, 48)
+************************************************
+time now is: Thu Nov  1 11:05:04 2018
+loss_real is  0.587474822998 loss_fake is  0.56332886219 outputD_real is 
+ 0.4307
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0397524982691
+loss for discriminator is 1.150804
+cost time for iter [2201, 2300] is 16.24
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:06 2018
+loss_real is  0.618354976177 loss_fake is  0.464915186167 outputD_real is 
+ 0.3718
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0486399941146
+loss for discriminator is 1.083270
+cost time for iter [2301, 2400] is 1.89
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:07 2018
+loss_real is  0.364561498165 loss_fake is  0.477439105511 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0487391464412
+loss for discriminator is 0.842001
+cost time for iter [2401, 2500] is 1.85
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:10 2018
+loss_real is  0.305311530828 loss_fake is  0.472362607718 outputD_real is 
+ 0.3765
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0516704581678
+loss for discriminator is 0.777674
+cost time for iter [2501, 2600] is 2.17
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:11 2018
+loss_real is  0.531178176403 loss_fake is  0.362505674362 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0599170811474
+loss for discriminator is 0.893684
+cost time for iter [2601, 2700] is 1.58
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:13 2018
+loss_real is  0.448393702507 loss_fake is  0.402914762497 outputD_real is 
+ 0.3316
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.054784744978
+loss for discriminator is 0.851308
+cost time for iter [2701, 2800] is 1.71
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:15 2018
+loss_real is  0.358359217644 loss_fake is  0.485420674086 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0509827844799
+loss for discriminator is 0.843780
+cost time for iter [2801, 2900] is 2.19
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:18 2018
+loss_real is  0.63062608242 loss_fake is  0.338378995657 outputD_real is 
+ 0.2871
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0617783665657
+loss for discriminator is 0.969005
+cost time for iter [2901, 3000] is 2.61
+************************************************
+outputD_real is  
+ 0.2005
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+  outputD_real is  
+ 0.2005
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+************************************************
+time now is: Thu Nov  1 11:05:21 2018
+loss_real is  0.575362801552 loss_fake is  0.346180707216 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0615610182285
+loss for discriminator is 0.921543
+cost time for iter [3001, 3100] is 2.93
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:25 2018
+loss_real is  0.679068446159 loss_fake is  0.465830475092 outputD_real is 
+ 0.3724
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0497473441064
+loss for discriminator is 1.144899
+cost time for iter [3101, 3200] is 3.88
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:28 2018
+loss_real is  0.487846970558 loss_fake is  0.391864866018 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0567176453769
+loss for discriminator is 0.879712
+cost time for iter [3201, 3300] is 3.32
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:30 2018
+loss_real is  0.570323228836 loss_fake is  0.370915055275 outputD_real is 
+ 0.3099
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0599192753434
+loss for discriminator is 0.941238
+cost time for iter [3301, 3400] is 1.92
+************************************************
+train64to48_9.h5
+X shape  (36480, 48, 48)
+************************************************
+time now is: Thu Nov  1 11:05:48 2018
+loss_real is  0.585098981857 loss_fake is  0.371506333351 outputD_real is 
+ 0.3103
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0566468052566
+loss for discriminator is 0.956605
+cost time for iter [3401, 3500] is 18.09
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:50 2018
+loss_real is  0.530422151089 loss_fake is  0.431004434824 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0519218109548
+loss for discriminator is 0.961427
+cost time for iter [3501, 3600] is 2.22
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:52 2018
+loss_real is  0.679482340813 loss_fake is  0.410762488842 outputD_real is 
+ 0.3369
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0545074120164
+loss for discriminator is 1.090245
+cost time for iter [3601, 3700] is 2.06
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:54 2018
+loss_real is  0.572477817535 loss_fake is  0.41611045599 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0546336583793
+loss for discriminator is 0.988588
+cost time for iter [3701, 3800] is 2.03
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:56 2018
+loss_real is  0.65280431509 loss_fake is  0.364947378635 outputD_real is 
+ 0.3058
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.058778423816
+loss for discriminator is 1.017752
+cost time for iter [3801, 3900] is 2.04
+************************************************
+************************************************
+time now is: Thu Nov  1 11:05:59 2018
+loss_real is  0.627172648907 loss_fake is  0.399996995926 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0536785125732
+loss for discriminator is 1.027170
+cost time for iter [3901, 4000] is 2.37
+************************************************
+outputD_real is  
+ 0.1750
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+  outputD_real is  
+ 0.1750
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+************************************************
+time now is: Thu Nov  1 11:06:00 2018
+loss_real is  0.366444587708 loss_fake is  0.422651648521 outputD_real is 
+ 0.3447
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0532081499696
+loss for discriminator is 0.789096
+cost time for iter [4001, 4100] is 1.75
+************************************************
+************************************************
+time now is: Thu Nov  1 11:06:02 2018
+loss_real is  0.473206877708 loss_fake is  0.372749328613 outputD_real is 
+ 0.3112
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.058327075094
+loss for discriminator is 0.845956
+cost time for iter [4101, 4200] is 2.03
+************************************************
+************************************************
+time now is: Thu Nov  1 11:06:04 2018
+loss_real is  0.693477511406 loss_fake is  0.400033950806 outputD_real is 
+ 0.3297
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0552440658212
+loss for discriminator is 1.093511
+cost time for iter [4201, 4300] is 1.70
+************************************************
+************************************************
+time now is: Thu Nov  1 11:06:07 2018
+loss_real is  0.315539181232 loss_fake is  0.385646253824 outputD_real is 
+ 0.3200
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0567865259945
+loss for discriminator is 0.701185
+cost time for iter [4301, 4400] is 3.36
+************************************************
+************************************************
+time now is: Thu Nov  1 11:06:09 2018
+loss_real is  0.382986426353 loss_fake is  0.397789597511 outputD_real is 
+ 0.3282
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0570933111012
+loss for discriminator is 0.780776
+cost time for iter [4401, 4500] is 1.54
+************************************************
+train64to48_5.h5
+X shape  (36480, 48, 48)
+************************************************
+time now is: Thu Nov  1 11:06:19 2018
+loss_real is  0.678256750107 loss_fake is  0.411632359028 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0537657029927
+loss for discriminator is 1.089889
+cost time for iter [4501, 4600] is 10.26
+************************************************
+************************************************
+time now is: Thu Nov  1 11:06:22 2018
+loss_real is  0.49310451746 loss_fake is  0.405629962683 outputD_real is 
+ 0.3334
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0551004894078
+loss for discriminator is 0.898734
+cost time for iter [4601, 4700] is 2.30
+************************************************
+************************************************
+time now is: Thu Nov  1 11:06:24 2018
+loss_real is  0.648699641228 loss_fake is  0.408893734217 outputD_real is 
+ 1
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0540074594319
+loss for discriminator is 1.057593
+cost time for iter [4701, 4800] is 2.81
+************************************************
+************************************************
+time now is: Thu Nov  1 11:06:27 2018
+loss_real is  0.607072591782 loss_fake is  0.469788700342 outputD_real is 
+ 0.3750
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.04907489568
+loss for discriminator is 1.076861
+cost time for iter [4801, 4900] is 2.89
+************************************************
+************************************************
+time now is: Thu Nov  1 11:06:31 2018
+loss_real is  0.777891516685 loss_fake is  0.389720112085 outputD_real is 
+ 0.3228
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+lossG_D is  0.0564135797322
+loss for discriminator is 1.167612
+cost time for iter [4901, 5000] is 3.41
+************************************************
+save model: /shenlab/lab_stor5/dongnie/anoDetectGAN/model/anoDetect_adLoss_lr5e3_1101_5000.pt
+outputD_real is  
+ 0.3276
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+  outputD_real is  
+ 0.3276
+[torch.cuda.FloatTensor of size 1 (GPU 0)]
+
+matFA shape:  (300, 282, 191)
+last i  295
+Traceback (most recent call last):
+  File "runAnoDetectGAN_2D.py", line 407, in <module>
+    main()
+  File "runAnoDetectGAN_2D.py", line 399, in main
+    pred = testOneSubject4Cla(matFA,[5,64,64],[1,32,32],netD, opt.prefixModelName+'%d.pt'%iter)
+  File "/home/dongnie/myPytorchCodes/pytorch-AnomalyDetectionGAN/utils.py", line 938, in testOneSubject4Cla
+    temppre = evaluate_res4cla(volFA, netD, modelPath, nd=nd)
+  File "/home/dongnie/myPytorchCodes/pytorch-AnomalyDetectionGAN/utils.py", line 565, in evaluate_res4cla
+    res = netD(patch_MR)
+  File "/usr/local/lib/python2.7/dist-packages/torch/nn/modules/module.py", line 357, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/dongnie/myPytorchCodes/pytorch-AnomalyDetectionGAN/ganComponents.py", line 238, in forward
+    out = self.main(input)
+  File "/usr/local/lib/python2.7/dist-packages/torch/nn/modules/module.py", line 357, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/torch/nn/modules/container.py", line 67, in forward
+    input = module(input)
+  File "/usr/local/lib/python2.7/dist-packages/torch/nn/modules/module.py", line 357, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/torch/nn/modules/conv.py", line 282, in forward
+    self.padding, self.dilation, self.groups)
+  File "/usr/local/lib/python2.7/dist-packages/torch/nn/functional.py", line 90, in conv2d
+    return f(input, weight, bias)
+RuntimeError: Given groups=1, weight[32, 1, 5, 5], so expected input[1, 5, 64, 64] to have 1 channels, but got 5 channels instead
